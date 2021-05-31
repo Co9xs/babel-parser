@@ -19,8 +19,8 @@ class Text2Emoji {
     if (cached) {
       return cached
     }
-    const emoji = this._num2Emoji(this.idx);
-    this.idx += 1;
+    const emoji = this._num2Emoji(this.index);
+    this.index += 1;
     this.cache.set(text, emoji);
     return emoji;
   }
