@@ -1,5 +1,5 @@
 const { parse } = require("@babel/parser")
-const { default: generate } = require("@babel/genrator")
+const { default: generate } = require("@babel/generator")
 
 const code = `
 let name = "Fujishima"
